@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-radius;
+}
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #063324e5;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://icon2.cleanpng.com/20171220/jrq/plant-5a3ad0acdb8ee3.9073756615138039488993.jpg');
+}
+section.chat__section {
+    width: 9000px;
+    height:500px;
+    max-width: 90%;
+    background: #4d0631d5;
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(215,55,88,0.908000700280112) 74%);
+    box-shadow: 0 10px 15px -3px rgba(68, 6, 35, 0.836), 0 4px 6px -2px rgba(105, 7, 73, 0.836);
+}
+.brand {
+    padding: 20px;
+    background-image: url('https://img.freepik.com/premium-vector/chat-app-logo-design-template-can-be-used-icon-chat-application-logo_605910-1724.jpg');
+    background: #6e081e88;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform:capitalize;
+    font-size: 20px;
+    color: #022d30;
+    margin-left: 10px;
+}
+.message__area{
+    height: 300px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    /* align-items: center; */
+}
+textarea {
+    width: 93%;
+    border:#500404;
+    padding: 20px;
+    font-size: 20px;
+    outline:#470404;
+    background: #490223dc;
+    /* border-style:hidden; */
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 500px;
+  /* height: 150px; */
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #1c0531e5;
+    color: #fff;  
+}
+.outgoing {
+    background: #05362adc;
+    color: #ffffff;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #000000;
+    font-size: 14px;
+}
